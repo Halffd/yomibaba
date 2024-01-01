@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Yomu
 
 Fork Additional Features:
@@ -17,32 +16,19 @@ Fork Additional Features:
 *   Anki auto hide popup
 
 Yomu turns your web browser into a tool for building Japanese language literacy by helping you to decipher texts
-=======
-# Yomichan
-
-Yomichan turns your web browser into a tool for building Japanese language literacy by helping you to decipher texts
->>>>>>> origin/master
 which would be otherwise too difficult tackle. This extension is similar to
 [Rikaichamp](https://addons.mozilla.org/en-US/firefox/addon/rikaichamp/) for Firefox and
 [Rikaikun](https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=en) for Chrome, but it
 stands apart in its goal of being an all-encompassing learning tool as opposed to a mere browser-based dictionary.
 
-<<<<<<< HEAD
 
 Yomu provides advanced features not available in other browser-based dictionaries:
-=======
-Yomichan provides advanced features not available in other browser-based dictionaries:
->>>>>>> origin/master
 
 *   Interactive popup definition window for displaying search results.
 *   On-demand audio playback for select dictionary definitions.
 *   Kanji stroke order diagrams are just a click away for most characters.
 *   Custom search page for easily executing custom search queries.
-<<<<<<< HEAD
 *   Support for multiple dictionary formats including [EPWING](https://ja.wikipedia.org/wiki/EPWING) via the [Yomu Import](https://foosoft.net/projects/yomichan-import) tool.
-=======
-*   Support for multiple dictionary formats including [EPWING](https://ja.wikipedia.org/wiki/EPWING) via the [Yomichan Import](https://foosoft.net/projects/yomichan-import) tool.
->>>>>>> origin/master
 *   Automatic note creation for the [Anki](https://apps.ankiweb.net/) flashcard program via the [AnkiConnect](https://foosoft.net/projects/anki-connect) plugin.
 *   Clean, modern code makes it easy for developers to [contribute](https://github.com/FooSoft/yomichan/blob/master/CONTRIBUTING.md) new features.
 
@@ -53,25 +39,23 @@ Yomichan provides advanced features not available in other browser-based diction
 
 ## Table of Contents
 
-*   [Installation](#installation)
-*   [Dictionaries](#dictionaries)
-*   [Basic Usage](#basic-usage)
-*   [Custom Dictionaries](#custom-dictionaries)
-*   [Anki Integration](#anki-integration)
-    *   [Flashcard Configuration](#flashcard-configuration)
-    *   [Flashcard Creation](#flashcard-creation)
-*   [Keyboard Shortcuts](#keyboard-shortcuts)
-*   [Frequently Asked Questions](#frequently-asked-questions)
-*   [Licenses](#licenses)
-*   [Third-Party Libraries](#third-party-libraries)
+- [Yomu](#yomu)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Dictionaries](#dictionaries)
+  - [Basic Usage](#basic-usage)
+  - [Custom Dictionaries](#custom-dictionaries)
+  - [Anki Integration](#anki-integration)
+    - [Flashcard Configuration](#flashcard-configuration)
+    - [Flashcard Creation](#flashcard-creation)
+  - [Keyboard Shortcuts](#keyboard-shortcuts)
+  - [Frequently Asked Questions](#frequently-asked-questions)
+  - [Licenses](#licenses)
+  - [Third-Party Libraries](#third-party-libraries)
 
 ## Installation
 
-<<<<<<< HEAD
 Yomu comes in two flavors: *stable* and *testing*. Over the years, this extension has evolved to contain many
-=======
-Yomichan comes in two flavors: *stable* and *testing*. Over the years, this extension has evolved to contain many
->>>>>>> origin/master
 complex features which have become increasingly difficult to test across different browsers, versions, and environments.
 New changes are initially introduced into the *testing* version, and after some time spent ensuring that they are
 relatively bug free, they will be promoted to the *stable* version. If you are technically savvy and don't mind
@@ -90,17 +74,10 @@ submitting issues on GitHub, try the *testing* version; otherwise, the *stable* 
 
 ## Dictionaries
 
-<<<<<<< HEAD
 There are several free Japanese dictionaries available for Yomu, with two of them having glossaries available in
 different languages. You must download and import the dictionaries you wish to use in order to enable Yomu
 definition lookups. If you have proprietary EPWING dictionaries that you would like to use, check the [Yomu
 Import](https://foosoft.net/projects/yomichan-import) page to learn how to convert and import them into Yomu.
-=======
-There are several free Japanese dictionaries available for Yomichan, with two of them having glossaries available in
-different languages. You must download and import the dictionaries you wish to use in order to enable Yomichan
-definition lookups. If you have proprietary EPWING dictionaries that you would like to use, check the [Yomichan
-Import](https://foosoft.net/projects/yomichan-import) page to learn how to convert and import them into Yomichan.
->>>>>>> origin/master
 
 Be aware that the non-English dictionaries contain fewer entries than their English counterparts. Even if your primary
 language is not English, you may consider also importing the English version for better coverage.
@@ -131,11 +108,7 @@ language is not English, you may consider also importing the English version for
 
 ## Basic Usage
 
-<<<<<<< HEAD
 1.  Click the <img src="ext/images/yomichan-icon.svg" alt="" width="16" height="16"> _Yomu_ button in the browser bar to open the quick-actions popup.
-=======
-1.  Click the <img src="ext/images/yomichan-icon.svg" alt="" width="16" height="16"> _Yomichan_ button in the browser bar to open the quick-actions popup.
->>>>>>> origin/master
 
     <img src="resources/images/browser-action-popup1.png" alt="">
 
@@ -145,11 +118,7 @@ language is not English, you may consider also importing the English version for
     *   The <img src="ext/images/profile.svg" alt="" width="16" height="16"> _profile_ button will appear when multiple profiles exist, allowing the current profile to be quickly changed.
 
 2.  Import the dictionaries you wish to use for term and kanji searches. If you do not have any dictionaries installed
-<<<<<<< HEAD
     or enabled, Yomu will warn you that it is not ready for use by displaying an orange exclamation mark over its
-=======
-    or enabled, Yomichan will warn you that it is not ready for use by displaying an orange exclamation mark over its
->>>>>>> origin/master
     icon. This exclamation mark will disappear once you have installed and enabled at least one dictionary.
 
     <img src="resources/images/settings-dictionaries-popup.png" alt="">
@@ -171,32 +140,20 @@ language is not English, you may consider also importing the English version for
 
 ## Custom Dictionaries
 
-<<<<<<< HEAD
 Yomu supports the use of custom dictionaries, including the esoteric but popular
-=======
-Yomichan supports the use of custom dictionaries, including the esoteric but popular
->>>>>>> origin/master
 [EPWING](https://ja.wikipedia.org/wiki/EPWING) format. They were often utilized in portable electronic dictionaries
 similar to the ones pictured below. These dictionaries are often sought after by language learners for their correctness
 and excellent coverage of the Japanese language.
 
 Unfortunately, as most of the dictionaries released in this format are proprietary, they are unable to be bundled with
-<<<<<<< HEAD
 Yomu. Instead, you will need to procure these dictionaries yourself and import them using [Yomu
-=======
-Yomichan. Instead, you will need to procure these dictionaries yourself and import them using [Yomichan
->>>>>>> origin/master
 Import](https://foosoft.net/projects/yomichan-import). Check the project page for additional details.
 
 ![Pocket EPWING dictionaries](img/epwing-devices.jpg)
 
 ## Anki Integration
 
-<<<<<<< HEAD
 Yomu features automatic flashcard creation for [Anki](https://apps.ankiweb.net/), a free application designed to help you
-=======
-Yomichan features automatic flashcard creation for [Anki](https://apps.ankiweb.net/), a free application designed to help you
->>>>>>> origin/master
 retain knowledge. This feature requires the prior installation of an Anki plugin called [AnkiConnect](https://foosoft.net/projects/anki-connect).
 Check the respective project page for more information about how to set up this software.
 
@@ -205,19 +162,11 @@ Check the respective project page for more information about how to set up this 
 Before flashcards can be automatically created, you must configure the templates used to create term and/or kanji notes.
 If you are unfamiliar with Anki deck and model management, this would be a good time to reference the [Anki
 Manual](https://docs.ankiweb.net/#/). In short, you must specify what information should be included in the
-<<<<<<< HEAD
 flashcards that Yomu creates through AnkiConnect.
 
 Flashcard fields can be configured with the following steps:
 
 1.  Open the Yomu options page and scroll down to the section labeled *Anki Options*.
-=======
-flashcards that Yomichan creates through AnkiConnect.
-
-Flashcard fields can be configured with the following steps:
-
-1.  Open the Yomichan options page and scroll down to the section labeled *Anki Options*.
->>>>>>> origin/master
 2.  Tick the checkbox labeled *Enable Anki integration* (Anki must be running with [AnkiConnect](https://foosoft.net/projects/anki-connect) installed).
 3.  Select the type of template to configure by clicking on either the *Terms* or *Kanji* tabs.
 4.  Select the Anki deck and model to use for new creating new flashcards of this type.
@@ -232,11 +181,7 @@ Flashcard fields can be configured with the following steps:
     `{audio}` | Audio sample of a native speaker's pronunciation in MP3 format (if available).
     `{clipboard-image}` | An image which is stored in the system clipboard, if present.
     `{clipboard-text}` | Text which is stored in the system clipboard, if present.
-<<<<<<< HEAD
     `{cloze-body}` | Raw, inflected term as it appeared before being reduced to dictionary form by Yomu.
-=======
-    `{cloze-body}` | Raw, inflected term as it appeared before being reduced to dictionary form by Yomichan.
->>>>>>> origin/master
     `{cloze-prefix}` | Fragment of the containing `{sentence}` starting at the beginning of `{sentence}` until the beginning of `{cloze-body}`.
     `{cloze-suffix}` | Fragment of the containing `{sentence}` starting at the end of `{cloze-body}` until the end of `{sentence}`.
     `{conjugation}` | Conjugation path from the raw inflected term to the source term.
@@ -269,11 +214,7 @@ Flashcard fields can be configured with the following steps:
     `{character}` | Unicode glyph representing the current kanji.
     `{clipboard-image}` | An image which is stored in the system clipboard, if present.
     `{clipboard-text}` | Text which is stored in the system clipboard, if present.
-<<<<<<< HEAD
     `{cloze-body}` | Raw, inflected parent term as it appeared before being reduced to dictionary form by Yomu.
-=======
-    `{cloze-body}` | Raw, inflected parent term as it appeared before being reduced to dictionary form by Yomichan.
->>>>>>> origin/master
     `{cloze-prefix}` | Fragment of the containing `{sentence}` starting at the beginning of `{sentence}` until the beginning of `{cloze-body}`.
     `{cloze-suffix}` | Fragment of the containing `{sentence}` starting at the end of `{cloze-body}` until the end of `{sentence}`.
     `{dictionary}` | Name of the dictionary from which the card is being created.
@@ -290,11 +231,7 @@ Flashcard fields can be configured with the following steps:
     `{stroke-count}` | Number of strokes that the kanji character has.
     `{url}` | Address of the web page in which the kanji appeared in.
 
-<<<<<<< HEAD
 When creating your model for Yomu, *make sure that you pick a unique field to be first*; fields that will
-=======
-When creating your model for Yomichan, *make sure that you pick a unique field to be first*; fields that will
->>>>>>> origin/master
 contain `{expression}` or `{character}` are ideal candidates for this. Anki does not allow duplicate flashcards to be
 added to a deck by default; it uses the first field in the model to check for duplicates. For example, if you have `{reading}`
 configured to be the first field in your model and <ruby>橋<rt>はし</rt></ruby> is already in your deck, you will not
@@ -302,11 +239,7 @@ be able to create a flashcard for <ruby>箸<rt>はし</rt></ruby> because they s
 
 ### Flashcard Creation
 
-<<<<<<< HEAD
 Once Yomu is configured, it becomes trivial to create new flashcards with a single click. You will see the following
-=======
-Once Yomichan is configured, it becomes trivial to create new flashcards with a single click. You will see the following
->>>>>>> origin/master
 icons next to term definitions:
 
 *   Clicking ![](img/btn-add-expression.png) adds the current expression as kanji (e.g. 食べる).
@@ -348,7 +281,6 @@ Shortcut | Action
 
 **I'm having problems importing dictionaries in Firefox, what do I do?**
 
-<<<<<<< HEAD
 Yomu uses the cross-browser IndexedDB system for storing imported dictionary data into your user profile. Although
 everything "just works" in Chrome, depending on settings, Firefox users can run into problems due to browser bugs.
 Yomu catches errors and tries to offer suggestions about how to work around Firefox issues, but in general at least
@@ -356,15 +288,6 @@ one of the following solutions should work for you:
 
 *   Make sure you have cookies enabled. It appears that disabling them also disables IndexedDB for some reason. You
     can still have cookies be disabled on other sites; just make sure to add the Yomu extension to the whitelist of
-=======
-Yomichan uses the cross-browser IndexedDB system for storing imported dictionary data into your user profile. Although
-everything "just works" in Chrome, depending on settings, Firefox users can run into problems due to browser bugs.
-Yomichan catches errors and tries to offer suggestions about how to work around Firefox issues, but in general at least
-one of the following solutions should work for you:
-
-*   Make sure you have cookies enabled. It appears that disabling them also disables IndexedDB for some reason. You
-    can still have cookies be disabled on other sites; just make sure to add the Yomichan extension to the whitelist of
->>>>>>> origin/master
     whatever tool you are using to restrict cookies. You can get the extension "URL" by looking at the address bar when
     you have the search page open.
 *   Make sure that you have sufficient disk space available on the drive Firefox uses to store your user profile.
@@ -374,16 +297,11 @@ one of the following solutions should work for you:
     set to "Never remember history", IndexedDB access is once again disabled for an inexplicable reason.
 *   As a last resort, try using the [Refresh Firefox](https://support.mozilla.org/en-US/kb/reset-preferences-fix-problems)
     feature to reset your user profile. It appears that the Firefox profile system can corrupt itself preventing
-<<<<<<< HEAD
     IndexedDB from being accessible to Yomu.
-=======
-    IndexedDB from being accessible to Yomichan.
->>>>>>> origin/master
 
 **Will you add support for online dictionaries?**
 
 Online dictionaries will not be implemented because it is not possible to support them in a robust way. In order to
-<<<<<<< HEAD
 perform Japanese deinflection, Yomu must execute dozens of database queries for every single word. Factoring in
 network latency and the fragility of web scraping, it would not be possible to maintain a good and consistent user
 experience.
@@ -401,44 +319,17 @@ cause the browser to become unresponsive. The time it takes to delete a single d
 the same as the time it originally took to import, which can be significant for certain large dictionaries.
 
 **Why aren't EPWING dictionaries bundled with Yomu?**
-=======
-perform Japanese deinflection, Yomichan must execute dozens of database queries for every single word. Factoring in
-network latency and the fragility of web scraping, it would not be possible to maintain a good and consistent user
-experience.
-
-**Is it possible to use Yomichan with files saved locally on my computer with Chrome?**
-
-In order to use Yomichan with local files in Chrome, you must first tick the *Allow access to file URLs* checkbox
-for Yomichan on the extensions page. Due to the restrictions placed on browser addons in the WebExtensions model, it
-will likely never be possible to use Yomichan with PDF files.
-
-**Is it possible to delete individual dictionaries without purging the database?**
-
-Yomichan is able to delete individual dictionaries, but keep in mind that this process can be *very* slow and can
-cause the browser to become unresponsive. The time it takes to delete a single dictionary can sometimes be roughly
-the same as the time it originally took to import, which can be significant for certain large dictionaries.
-
-**Why aren't EPWING dictionaries bundled with Yomichan?**
->>>>>>> origin/master
 
 The vast majority of EPWING dictionaries are proprietary, so they are unfortunately not able to be included in
 this extension due to copyright reasons.
 
 **When are you going to add support for $MYLANGUAGE?**
 
-<<<<<<< HEAD
 Developing Yomu requires a decent understanding of Japanese sentence structure and grammar, and other languages
 are likely to have their own unique set of rules for syntax, grammar, inflection, and so on. Supporting additional
 languages would not only require many additional changes to the codebase, it would also incur significant maintenance
 overhead and knowledge demands for the developers. Therefore, suggestions and contributions for supporting
 new languages will be declined, allowing Yomu's focus to remain Japanese-centric.
-=======
-Developing Yomichan requires a decent understanding of Japanese sentence structure and grammar, and other languages
-are likely to have their own unique set of rules for syntax, grammar, inflection, and so on. Supporting additional
-languages would not only require many additional changes to the codebase, it would also incur significant maintenance
-overhead and knowledge demands for the developers. Therefore, suggestions and contributions for supporting
-new languages will be declined, allowing Yomichan's focus to remain Japanese-centric.
->>>>>>> origin/master
 
 ## Licenses
 
@@ -456,11 +347,7 @@ Required licensing notices for this project follow below:
 
 ## Third-Party Libraries
 
-<<<<<<< HEAD
 Yomu uses several third-party libraries to function. Below are links to homepages, snapshots, and licenses of the exact
-=======
-Yomichan uses several third-party libraries to function. Below are links to homepages, snapshots, and licenses of the exact
->>>>>>> origin/master
 versions packaged.
 
 *   Handlebars: [homepage](https://handlebarsjs.com/) - [snapshot](https://s3.amazonaws.com/builds.handlebarsjs.com/handlebars.min-v4.7.7.js) - [license](https://github.com/handlebars-lang/handlebars.js/blob/v4.7.7/LICENSE)
