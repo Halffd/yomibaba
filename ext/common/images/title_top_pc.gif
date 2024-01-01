@@ -1,0 +1,167 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20231115.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetLiveChatReplay_rid",
+            "value": "0x9a012805b250c918"
+          }
+        ]
+      },
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "e",
+            "value": "23804281,23946420,23966208,23983296,23986026,23998056,24004644,24007246,24034168,24036947,24077241,24080738,24120819,24135310,24140247,24166867,24181174,24187377,24208765,24241378,24255543,24255545,24288664,24290971,24291857,24367579,24371398,24371779,24377598,24377909,24382552,24385728,24387949,24390675,24428788,24439361,24451319,24453989,24458839,24468724,24485421,24506515,24515423,24517093,24518452,24524098,24526515,24531225,24531254,24534951,24537200,24539025,24540881,24542367,24542452,24543193,24543197,24543199,24543201,24546075,24548138,24548627,24548629,24549786,24550285,24550458,24559327,24560416,24563746,24566293,24566484,24566687,24585907,24586688,24588590,24589492,24650811,24694842,24696752,24697068,24698452,24699899,39324156,39324569,51003636,51004018,51006175,51006181,51009757,51009781,51009900,51010235,51012165,51012291,51012659,51014091,51016856,51017346,51019442,51019626,51020570,51021953,51025415,51025833,51026715,51027535,51027870,51028271,51030311,51033182,51033399,51033577,51036511,51037540,51038399,51038805,51039200,51039493,51040924,51041497,51041809,51044150,51044152,51044154,51044158,51045016,51045969,51047578,51048239,51048255,51049005,51051344,51053957,51054668,51054674,51055017,51055917,51055919,51059285,51059616,51061018,51061149,51061427,51061926,51064409"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20231115"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          },
+          {
+            "key": "client.fexp",
+            "value": "24241378,39324156,51047578,51027870,24077241,24589492,51044158,24697068,24371398,24208765,51016856,24187377,24371779,24542367,23986026,51059285,51041497,23983296,24696752,51061018,24543201,51017346,51059616,24387949,24255545,51055919,24036947,23998056,51044150,51054668,51009781,24524098,24367579,51053957,51012291,51061427,51048255,24650811,24531254,24255543,24699899,24135310,24526515,51045969,51028271,51010235,51033182,51061926,24546075,24120819,24453989,24543199,24007246,24548629,24588590,51019626,51012659,51033399,24385728,23946420,51061149,24560416,51025415,51038805,24566484,24518452,51064409,24537200,51037540,24543193,24004644,24542452,24549786,24517093,24531225,24694842,24390675,51039200,23804281,24543197,24698452,51049005,51030311,24585907,24548627,24563746,51019442,24439361,24548138,24288664,51014091,51055917,51044154,51036511,24566293,24566687,24181174,24515423,24291857,24506515,51033577,39324569,24166867,51055017,51041809,24034168,51009900,51020570,24468724,24382552,51025833,24534951,51012165,24377598,51054674,51045016,24140247,51039493,23966208,51040924,24080738,51006175,51004018,51009757,51051344,24428788,51021953,24539025,51044152,24451319,51038399,24586688,24550285,24458839,51026715,51003636,51048239,24540881,51027535,24290971,24377909,24559327,24550458,24485421,51006181"
+          }
+        ]
+      }
+    ],
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
+    },
+    "webResponseContextExtensionData": {
+      "hasDecorated": true
+    }
+  },
+  "continuationContents": {
+    "liveChatContinuation": {
+      "continuations": [
+        {
+          "liveChatReplayContinuationData": {
+            "timeUntilLastMessageMsec": 5000,
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKMCj28MOQABIA1IIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        },
+        {
+          "playerSeekContinuationData": {
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKMCj28MOQABIBFIIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "ANOTHER ONE?!?!?"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "ant0n"
+                      },
+                      "authorPhoto": {
+                        "thumbnails": [
+                          {
+                            "url": "https://yt4.ggpht.com/ytc/APkrFKbYQkbWVG7MC3WmTiCJ3Omp8GRqndRh7KHyvYy-=s32-c-k-c0x00ffffff-no-rj",
+                            "width": 32,
+                            "height": 32
+                          },
+                          {
+                            "url": "https://yt4.ggpht.com/ytc/APkrFKbYQkbWVG7MC3WmTiCJ3Omp8GRqndRh7KHyvYy-=s64-c-k-c0x00ffffff-no-rj",
+                            "width": 64,
+                            "height": 64
+                          }
+                        ]
+                      },
+                      "contextMenuEndpoint": {
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "ignoreNavigation": true
+                          }
+                        },
+                        "liveChatItemContextMenuEndpoint": {
+                          "params": "Q2g0S0hBb2FRMDVoUVd0eGRrTnZiMFZFUm1WalNqRm5RV1JsTVZsQ1lYY2FLU29uQ2hoVlExZFJkRmwwY1RsRlQwSTBMVWsxVUMwelptZzRiRUVTQzJ0Qk5FRklUM2x0TVZZNElBRW9BVElhQ2hoVlEyRnZNVEZKWW5SNVZsRkNkbWhWTm1SVlFscFpRMmM0QWtnQlVBRSUzRA=="
+                        }
+                      },
+                      "id": "ChwKGkNOYUFrcXZDb29FREZlY0oxZ0FkZTFZQmF3",
+                      "timestampUsec": "1694433945133799",
+                      "authorExternalChannelId": "UCao11IbtyVQBvhU6dUBZYCg",
+                      "contextMenuAccessibility": {
+                        "accessibilityData": {
+                          "label": "Chat actions"
+                        }
+                      },
+                      "timestampText": {
+                        "simpleText": "1:04:56"
+                      }
+                    }
+                  },
+                  "clientId": "CNaAkqvCooEDFecJ1gAde1YBaw"
+                }
+              }
+            ],
+            "videoOffsetTimeMsec": "3896700"
+          }
+        },
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "まだあるのか"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "Akazukin"
+                      },
+     

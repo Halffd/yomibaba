@@ -1,0 +1,35 @@
+function createSettingsInputTemplate(id, label, description, dataSettingX, dataSettingY, attributeType, borderWidth = '1px', borderColor = '#000') {
+    const idAttribute = id ? `id="${id}"` : '';
+    const borderStyle = `border: ${borderWidth} solid ${borderColor};`;
+
+    const template = `
+      <div class="settings-item advanced-only" style="${borderStyle}" ${idAttribute}>
+        <div class="settings-item-inner settings-item-inner-wrappable">
+          <div class="settings-item-left">
+            <div class="settings-item-label">${label}</div>
+            <div class="settings-item-description">${description}</div>
+          </div>
+          <div class="settings-item-right">
+            <div class="settings-item-group">
+              <div class="settings-item-group-item">
+                <div class="settings-item-group-item-label">${attributeType === 'width' ? 'w' : 'h'}</div>
+                <input type="number" class="${attributeType === 'width' ? 'short-width' : 'short-height'}" data-setting="${dataSettingX}">
+              </div>
+              <div class="settings-item-group-item">
+                <div class="settings-item-group-item-label">${attributeType === 'width' ? 'w' : 'h'}</div>
+                <input type="number" class="${attributeType === 'width' ? 'short-width' : 'short-height'}" data-setting="${dataSettingY}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    return template;
+}
+
+create inputs with border, label, id and label. data from localstorage id
+
+border: 2px solid yellow; id='sl' select language
+border: 2px solid orange; id="min" minimum frequency
+border: 2px solid yellow; id="ht" height
+border: 2px solid orange; id="wt" width

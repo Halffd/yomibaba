@@ -1,0 +1,167 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20231115.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetLiveChatReplay_rid",
+            "value": "0xd4d19f643bfe8b32"
+          }
+        ]
+      },
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "e",
+            "value": "23804281,23946420,23966208,23983296,23986026,23998056,24004644,24007246,24034168,24036947,24077241,24080738,24120819,24135310,24140247,24166867,24181174,24187377,24208765,24241378,24255543,24255545,24288664,24290971,24291857,24367579,24371398,24371779,24377598,24377909,24382552,24385728,24387949,24390675,24428788,24439361,24451319,24453989,24458839,24468724,24485421,24506515,24515423,24517093,24518452,24524098,24526515,24531225,24531254,24534951,24537200,24539025,24540881,24542367,24542452,24543193,24543197,24543199,24543201,24546075,24548138,24548627,24548629,24549786,24550285,24550458,24559327,24560416,24563746,24566293,24566484,24566687,24585907,24586688,24588590,24589492,24650811,24694842,24696752,24697068,24698452,24699899,39324156,39324569,51003636,51004018,51006175,51006181,51009757,51009781,51009900,51010235,51012165,51012291,51012659,51014091,51016856,51017346,51019442,51019626,51020570,51021953,51025415,51025833,51026715,51027535,51027870,51028271,51030311,51033182,51033399,51033577,51036511,51037540,51038399,51038805,51039200,51039493,51040924,51041497,51041809,51044150,51044152,51044154,51044158,51045016,51045969,51047578,51048239,51048255,51049005,51051344,51053957,51054668,51054674,51055017,51055917,51055919,51059285,51059616,51061018,51061149,51061427,51061926,51064409"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20231115"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          },
+          {
+            "key": "client.fexp",
+            "value": "51012659,51006181,24208765,24697068,51027870,24542367,24371398,24589492,23986026,24543201,51055917,51014091,51041497,24696752,51049005,24563746,51019442,51044152,24255545,24566293,51012165,24036947,39324569,24166867,23998056,24566687,24367579,51055017,51009900,23966208,24534951,24382552,51020570,24377598,51054674,51028271,24255543,51025833,51045016,24543199,24650811,24135310,24080738,24546075,24699899,51051344,24548629,51033182,51009757,51021953,24451319,24542452,24458839,51038805,51044154,24543193,51033399,51048239,24517093,24549786,24559327,24485421,24518452,51064409,24241378,51037540,24588590,24377909,23804281,24390675,51039200,51047578,24585907,39324156,51053957,24698452,24548627,24548138,51059285,24439361,24387949,51030311,51059616,24543197,51036511,23983296,51017346,51061018,51009781,24291857,24468724,24288664,51012291,24181174,24506515,24524098,51055919,51033577,51054668,51016856,24034168,51061427,24515423,51048255,24694842,51041809,24140247,51040924,24526515,24531254,51045969,51006175,51004018,51061926,51044150,51039493,24428788,24539025,24120819,51010235,24007246,24453989,51038399,23946420,24560416,51019626,24586688,51025415,51061149,24566484,24550285,51026715,51003636,24187377,24531225,51027535,51044158,24077241,24385728,24550458,24540881,24290971,24537200,24371779,24004644"
+          }
+        ]
+      }
+    ],
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
+    },
+    "webResponseContextExtensionData": {
+      "hasDecorated": true
+    }
+  },
+  "continuationContents": {
+    "liveChatContinuation": {
+      "continuations": [
+        {
+          "liveChatReplayContinuationData": {
+            "timeUntilLastMessageMsec": 5000,
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKIan4JgOQABIA1IIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        },
+        {
+          "playerSeekContinuationData": {
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKIan4JgOQABIBFIIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "ザ・歌枠ｗｗ"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "いべりこ"
+                      },
+                      "authorPhoto": {
+                        "thumbnails": [
+                          {
+                            "url": "https://yt4.ggpht.com/ytc/APkrFKYRBnmu2wGCYG5dM_Vku9tFd9Kqi7Yjcu25Ya8M=s32-c-k-c0x00ffffff-no-rj",
+                            "width": 32,
+                            "height": 32
+                          },
+                          {
+                            "url": "https://yt4.ggpht.com/ytc/APkrFKYRBnmu2wGCYG5dM_Vku9tFd9Kqi7Yjcu25Ya8M=s64-c-k-c0x00ffffff-no-rj",
+                            "width": 64,
+                            "height": 64
+                          }
+                        ]
+                      },
+                      "contextMenuEndpoint": {
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "ignoreNavigation": true
+                          }
+                        },
+                        "liveChatItemContextMenuEndpoint": {
+                          "params": "Q2g0S0hBb2FRMHREVnpkZlgwSnZiMFZFUmxWTlgzSlJXV1IxUlZGUFgxRWFLU29uQ2hoVlExZFJkRmwwY1RsRlQwSTBMVWsxVUMwelptZzRiRUVTQzJ0Qk5FRklUM2x0TVZZNElBRW9BVElhQ2hoVlEzQllSRFk1ZDNnMWJTMU9kR1pJTmswMVVtbFdSRUU0QWtnQlVBRSUzRA=="
+                        }
+                      },
+                      "id": "ChwKGkNLQ1c3X19Cb29FREZVTV9yUVlkdUVRT19R",
+                      "timestampUsec": "1694433854386504",
+                      "authorExternalChannelId": "UCpXD69wx5m-NtfH6M5RiVDA",
+                      "contextMenuAccessibility": {
+                        "accessibilityData": {
+                          "label": "Chat actions"
+                        }
+                      },
+                      "timestampText": {
+                        "simpleText": "1:03:25"
+                      }
+                    }
+                  },
+                  "clientId": "CKCW7__BooEDFUM_rQYduEQO_Q"
+                }
+              }
+            ],
+            "videoOffsetTimeMsec": "3805946"
+          }
+        },
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "草"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "よいち"
+                      },
+          
