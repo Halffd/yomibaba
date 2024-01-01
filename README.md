@@ -1,4 +1,4 @@
-# Yomu
+# Yomibaba
 
 Fork Additional Features:
 *   Custom Search
@@ -39,7 +39,7 @@ Yomu provides advanced features not available in other browser-based dictionarie
 
 ## Table of Contents
 
-- [Yomu](#yomu)
+- [Yomibaba](#yomibaba)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Dictionaries](#dictionaries)
