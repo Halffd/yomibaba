@@ -1,0 +1,169 @@
+{
+    "notes": [
+        {
+            "noteId": 1701054169268,
+            "tags": [],
+            "fields": {
+                "Key": {
+                    "value": "key",
+                    "order": 0
+                },
+                "Word": {
+                    "value": "test",
+                    "order": 1
+                },
+                "WordReading": {
+                    "value": "",
+                    "order": 2
+                },
+                "PAOverride": {
+                    "value": "",
+                    "order": 3
+                },
+                "PAOverrideText": {
+                    "value": "",
+                    "order": 4
+                },
+                "AJTWordPitch": {
+                    "value": "",
+                    "order": 5
+                },
+                "PrimaryDefinition": {
+                    "value": "",
+                    "order": 6
+                },
+                "PrimaryDefinitionPicture": {
+                    "value": "&lt;img src=\"file.png\"/&gt;",
+                    "order": 7
+                },
+                "Sentence": {
+                    "value": "",
+                    "order": 8
+                },
+                "SentenceReading": {
+                    "value": "",
+                    "order": 9
+                },
+                "AltDisplay": {
+                    "value": "",
+                    "order": 10
+                },
+                "AltDisplayPASentenceCard": {
+                    "value": "",
+                    "order": 11
+                },
+                "AdditionalNotes": {
+                    "value": "",
+                    "order": 12
+                },
+                "IsSentenceCard": {
+                    "value": "",
+                    "order": 13
+                },
+                "IsClickCard": {
+                    "value": "",
+                    "order": 14
+                },
+                "IsHoverCard": {
+                    "value": "",
+                    "order": 15
+                },
+                "IsTargetedSentenceCard": {
+                    "value": "",
+                    "order": 16
+                },
+                "PAShowInfo": {
+                    "value": "",
+                    "order": 17
+                },
+                "PATestOnlyWord": {
+                    "value": "",
+                    "order": 18
+                },
+                "PADoNotTest": {
+                    "value": "",
+                    "order": 19
+                },
+                "PASeparateWordCard": {
+                    "value": "",
+                    "order": 20
+                },
+                "PASeparateSentenceCard": {
+                    "value": "",
+                    "order": 21
+                },
+                "SeparateClozeDeletionCard": {
+                    "value": "",
+                    "order": 22
+                },
+                "Hint": {
+                    "value": "",
+                    "order": 23
+                },
+                "HintNotHidden": {
+                    "value": "",
+                    "order": 24
+                },
+                "Picture": {
+                    "value": "&lt;img src=\"file.png\"/&gt;",
+                    "order": 25
+                },
+                "WordAudio": {
+                    "value": "[sound: {filename}",
+                    "order": 26
+                },
+                "SentenceAudio": {
+                    "value": "[sound: {filename}",
+                    "order": 27
+                },
+                "PAGraphs": {
+                    "value": "",
+                    "order": 28
+                },
+                "PAPositions": {
+                    "value": "",
+                    "order": 29
+                },
+                "PASilence": {
+                    "value": "",
+                    "order": 30
+                },
+                "WordReadingHiragana": {
+                    "value": "",
+                    "order": 31
+                },
+                "FrequenciesStylized": {
+                    "value": "",
+                    "order": 32
+                },
+                "FrequencySort": {
+                    "value": "",
+                    "order": 33
+                },
+                "SecondaryDefinition": {
+                    "value": "",
+                    "order": 34
+                },
+                "ExtraDefinitions": {
+                    "value": "",
+                    "order": 35
+                },
+                "UtilityDictionaries": {
+                    "value": "",
+                    "order": 36
+                },
+                "Comment": {
+                    "value": "",
+                    "order": 37
+                }
+            },
+            "modelName": "JP Mining Note",
+            "cards": [
+                1701054169268
+            ]
+        },
+        {
+            // ...
+        }
+    ]
+}

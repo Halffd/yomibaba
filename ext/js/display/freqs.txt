@@ -1,0 +1,9 @@
+jp2
+Average Frequency: 18251.537203166226 (2336)
+minimum 36->1300
+max 183459<-62104
+
+jpmn
+Average Frequency: 19236.760885082083 (1401)
+min 263->1908
+max 183459<-53726

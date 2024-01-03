@@ -1,0 +1,165 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20231115.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetLiveChatReplay_rid",
+            "value": "0xc99ca96b994e86d8"
+          }
+        ]
+      },
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "e",
+            "value": "23804281,23946420,23966208,23983296,23986026,23998056,24004644,24007246,24034168,24036947,24077241,24080738,24120819,24135310,24140247,24166867,24181174,24187377,24208765,24241378,24255543,24255545,24288664,24290971,24291857,24367579,24371398,24371779,24377598,24377909,24382552,24385728,24387949,24390675,24428788,24439361,24451319,24453989,24458839,24468724,24485421,24506515,24515423,24517093,24518452,24524098,24526515,24531225,24531254,24534951,24537200,24539025,24540881,24542367,24542452,24543193,24543197,24543199,24543201,24546075,24548138,24548627,24548629,24549786,24550285,24550458,24559327,24560416,24563746,24566293,24566484,24566687,24585907,24586688,24588590,24589492,24650811,24694842,24696752,24697068,24698452,24699899,39324156,39324569,51003636,51004018,51006175,51006181,51009757,51009781,51009900,51010235,51012165,51012291,51012659,51014091,51016856,51017346,51019442,51019626,51020570,51021953,51025415,51025833,51026715,51027535,51027870,51028271,51030311,51033182,51033399,51033577,51036511,51037540,51038399,51038805,51039200,51039493,51040924,51041497,51041809,51044150,51044152,51044154,51044158,51045016,51045969,51047578,51048239,51048255,51049005,51051344,51053957,51054668,51054674,51055017,51055917,51055919,51059285,51059616,51061018,51061149,51061427,51061926,51064409"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20231115"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          },
+          {
+            "key": "client.fexp",
+            "value": "24453989,24566484,24548627,24524098,51048255,51012291,24506515,24120819,24468724,51037540,51033182,51061926,24546075,24531225,24549786,24588590,51038805,24385728,24526515,51019626,51009781,24518452,24537200,24517093,24390675,51033399,24548629,24543197,51047578,51025415,51030311,24699899,24531254,24255543,51061149,23804281,23946420,51061018,24367579,24187377,51054668,23983296,51026715,24540881,24387949,24036947,51012659,24004644,24371398,51055919,24077241,24371779,51044158,23998056,51027535,24560416,51016856,51053957,24589492,24007246,51010235,24255545,51045969,51061427,39324156,51017346,51059616,24696752,24428788,24539025,51044150,51059285,51041497,24697068,51003636,24550458,51051344,51009900,51012165,24377598,51006175,24550285,24458839,23966208,24586688,24290971,24140247,51038399,24543201,23986026,51006181,24241378,51004018,24542367,51027870,51040924,51054674,51021953,51044152,51039493,51049005,24208765,51020570,24543193,24288664,24563746,51044154,24451319,24559327,24485421,24566687,51048239,24542452,24034168,51014091,24377909,24694842,24382552,24534951,24515423,24181174,51064409,24291857,51055017,39324569,51041809,51019442,24585907,51009757,51025833,51045016,24543199,24439361,51055917,24566293,24698452,51033577,24080738,24135310,24650811,51036511,51039200,24166867,24548138,51028271"
+          }
+        ]
+      }
+    ],
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
+    },
+    "webResponseContextExtensionData": {
+      "hasDecorated": true
+    }
+  },
+  "continuationContents": {
+    "liveChatContinuation": {
+      "continuations": [
+        {
+          "liveChatReplayContinuationData": {
+            "timeUntilLastMessageMsec": 5000,
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKPfAxtEOQABIA1IIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        },
+        {
+          "playerSeekContinuationData": {
+            "continuation": "op2w0wR8Gl5DaWtxSndvWVZVTlhVWFJaZEhFNVJVOUNOQzFKTlZBdE0yWm9PR3hCRWd0clFUUkJTRTk1YlRGV09Cb1Q2cWpkdVFFTkNndHJRVFJCU0U5NWJURldPQ0FCTUFBJTNEKPfAxtEOQABIBFIIIACwAQD4AQByBAgBGAF4AA%3D%3D"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "三重の極み"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "Taichi"
+                      },
+                      "authorPhoto": {
+                        "thumbnails": [
+                          {
+                            "url": "https://yt4.ggpht.com/f2WuKrZCAkoluF2VyHKTKwmEWcWqWhRoY764ZjCdsZuR0dHjQ4q5KgMJ-7sqvpOW6C-hGXe_=s32-c-k-c0x00ffffff-no-rj",
+                            "width": 32,
+                            "height": 32
+                          },
+                          {
+                            "url": "https://yt4.ggpht.com/f2WuKrZCAkoluF2VyHKTKwmEWcWqWhRoY764ZjCdsZuR0dHjQ4q5KgMJ-7sqvpOW6C-hGXe_=s64-c-k-c0x00ffffff-no-rj",
+                            "width": 64,
+                            "height": 64
+                          }
+                        ]
+                      },
+                      "contextMenuEndpoint": {
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "ignoreNavigation": true
+                          }
+                        },
+                        "liveChatItemContextMenuEndpoint": {
+                          "params": "Q2g0S0hBb2FRMHRsYURjM2FrTnZiMFZFUm1ONlJYZG5VV1ExY0dOSU0yY2FLU29uQ2hoVlExZFJkRmwwY1RsRlQwSTBMVWsxVUMwelptZzRiRUVTQzJ0Qk5FRklUM2x0TVZZNElBRW9BVElhQ2hoVlEwaDFVVWx3WjBoeFpXTjJiblZLVVRZd1lXVkNZbEU0QWtnQlVBRSUzRA=="
+                        }
+                      },
+                      "id": "ChwKGkNLZWg3N2pDb29FREZjekV3Z1FkNXBjSDNn",
+                      "timestampUsec": "1694433973913898",
+                      "authorExternalChannelId": "UCHuQIpgHqecvnuJQ60aeBbQ",
+                      "contextMenuAccessibility": {
+                        "accessibilityData": {
+                          "label": "Chat actions"
+                        }
+                      },
+                      "timestampText": {
+                        "simpleText": "1:05:25"
+                      }
+                    }
+                  },
+                  "clientId": "CKeh77jCooEDFczEwgQd5pcH3g"
+                }
+              }
+            ],
+            "videoOffsetTimeMsec": "3925460"
+          }
+        },
+        {
+          "replayChatItemAction": {
+            "actions": [
+              {
+                "addChatItemAction": {
+                  "item": {
+                    "liveChatTextMessageRenderer": {
+                      "message": {
+                        "runs": [
+                          {
+                            "text": "あー"
+                          }
+                        ]
+                      },
+                      "authorName": {
+                        "simpleText": "く�
