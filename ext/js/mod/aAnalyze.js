@@ -1,4 +1,122 @@
 /* globals aDict lg wn */
+const API_URL = 'http://localhost:5000'; // Replace with your API URL
+
+const analyzeText = async (text, mode = 'A', nominalForm = false, printFields = false) => {
+    const url = `${API_URL}/analyze`;
+    const payload = {
+        text,
+        mode,
+        nominal_form: nominalForm,
+        print_fields: printFields,
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+        throw new Error('An error occurred while analyzing the text.');
+    }
+
+    const data = await response.json();
+    return data;
+};
+
+const analyzeFurigana = async (text, mode = 'A') => {
+    const url = `${API_URL}/furigana`;
+    const payload = {
+        text,
+        mode,
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+        throw new Error('An error occurred while analyzing the furigana.');
+    }
+
+    const data = await response.json();
+    return data;
+};
+
+const analyzeRomaji = async (text, mode = 'A') => {
+    const url = `${API_URL}/romaji`;
+    const payload = {
+        text,
+        mode,
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+        throw new Error('An error occurred while analyzing the romaji.');
+    }
+
+    const data = await response.json();
+    return data;
+};
+
+const analyzeGrammar = async (text, mode = 'A') => {
+    const url = `${API_URL}/grammar`;
+    const payload = {
+        text,
+        mode,
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+        throw new Error('An error occurred while analyzing the grammar.');
+    }
+
+    const data = await response.json();
+    return data;
+};
+
+const analyzeFrequency = async (text, mode = 'A') => {
+    const url = `${API_URL}/frequency`;
+    const payload = {
+        text,
+        mode,
+    };
+
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+    });
+
+    if (!response.ok) {
+        throw new Error('An error occurred while analyzing the frequency.');
+    }
+
+    const data = await response.json();
+    return data;
+};
 class Analyze {
     constructor(dic, t) {
         this.dic = aDict ?? dic
@@ -28,14 +146,7 @@ class Analyze {
             t = t.replace(regex, '')
             let tokens
             if (!ta) {
-                let response = await fetch('http://localhost:5000/analyze', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ text: t }),
-                });
-                tokens = await response.json();
+                tokens = await analyzeGrammar(t);
             } else {
                 tokens = ta
             }
@@ -91,5 +202,46 @@ class Analyze {
         } catch (error) {
             console.error(error);
         }
+    }
+    test(text, mode = 'A') {
+        analyzeText(text, mode, true, false)
+            .then(data => {
+                wn('Text analysis:', data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+        analyzeFurigana(text, mode)
+            .then(data => {
+                wn('Furigana analysis:', data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+        analyzeRomaji(text, mode)
+            .then(data => {
+                wn('Romaji analysis:', data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+        analyzeGrammar(text, mode)
+            .then(data => {
+                wn('Grammar analysis:', data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+        analyzeFrequency(text, mode)
+            .then(data => {
+                wn('Frequency analysis:', data);
+            })
+            .catch(error => {
+                console.error(error);
+            });
     }
 }
