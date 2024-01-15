@@ -52,18 +52,16 @@ var p
 var bef
 var aft
 var cs
-var ctg
-function replace(str, tt, rep = `<s>{}</s>`, reset = true, tgs = ['<sp','an>']) {
+function replace(str, tt, rep = `<s>{}</s>`, reset = false) {
   try {
     if (reset) rI = 0
-    wn(str, tt)
     cs = str.split('')
+    wn(str, tt)
     tg = false
     out = true
     done = false
     tot = tt.length
     cur = 0
-    ctg = [0,0]
     end = tot - 1
     pos = [-1, -1]
     res = ''
@@ -73,20 +71,11 @@ function replace(str, tt, rep = `<s>{}</s>`, reset = true, tgs = ['<sp','an>']) 
     aft = ''
     for (let i = rI; i <= cs.length; i++) {
       let c = cs[i]
-      if (c === tgs[0][ctg[0]]) {
-        ctg[0] += 1
-      }
-      if(ctg[0] >= tgs[0].length-1){
+      if (c === `<`) {
         tg = true
-        ctg[0] = 0
       }
-      if(ctg[1] >= tgs[1].length-1){
+      if (c === `>`) {
         tg = false
-        ctg[1] = 0
-      }
-      if (c === tgs[1][ctg[1]]) {
-        tg = false
-        ctg[1] += 1
       }
       if (cur > 0) {
         let sb = i - pos[0];
@@ -95,7 +84,7 @@ function replace(str, tt, rep = `<s>{}</s>`, reset = true, tgs = ['<sp','an>']) 
           cur = 0;
         }
       }
-      if (!tg && c === tt[cur]) {
+      if (c === tt[cur]) {
         if (cur == 0) {
           pos[0] = i
         }
@@ -108,10 +97,13 @@ function replace(str, tt, rep = `<s>{}</s>`, reset = true, tgs = ['<sp','an>']) 
       if (done) {
         bef = str.substring(0, pos[0])
         aft = str.substring(pos[1])
-        res = bef + rs + aft
+        res = bef + rs + '_' + aft
+        rI = res.indexOf('_')
+        res = res.replace('_','')
         wn(i, rI, rs.length, tt.length, res.length)
-        rI = pos[0] + rs.length;
-        wn({i: [i, res[i]],tt,replaceLen: [rs.length, res[rs.length]],rI: [rI, res[rI]],stoppedin: res[rI],searchLen: [tot, res[tot]],resLen: [res, res.length],calculatedLim: [rI+1, res[rI+1]],startEnd: pos,searchCur: cur})
+        //rI = pos[0] + rs.length;
+        wn(res[i], res[rI], res[rs.length], res[tt.length], res)
+        wn(rI, rs.length + rI - tt.length)
         if (rs.length + rI - tt.length > res.length) {
           //rI = 0
         }
@@ -1478,6 +1470,7 @@ this.txtImg(false)
     const searchString = tt
     const replacement = `<span class="words" i="${I}"><ruby class="word">${searchString}<rt class="reading">${tts}</rt></ruby></span>`
     try {
+      debugger
       const ltpChildren = Array.from(ltp.childNodes)
       const firstChild = ltpChildren[0]
       const firstChildText = firstChild.innerHTML
